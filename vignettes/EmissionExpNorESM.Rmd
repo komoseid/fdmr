@@ -1,0 +1,14 @@
+---
+title: "EmissionExperimentsNorESM2"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{EmissionExperimentsNorESM2}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+## Setting up the R environment
+I do not know what is required.
+
+## What we are doing
+We are trying to open and investigate NetCDF files from numerical experiments performed with the Norwegian Earth System Model (NorESM) version 2, medium atmospheric resolution and low oceanic resolution. 
+The first file we will open is 111MB which might be too big for this tutorial, but lets try for fun. It is surface file containing anthropogenic BC and SO2 emissions 
